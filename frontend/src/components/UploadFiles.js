@@ -67,7 +67,6 @@ const UploadFiles = () => {
         <label className="btn btn-default">
           <input type="file" onChange={selectFile} multiple />
         </label>
-        <label></label>
         <button
           className="btn btn-success"
           disabled={!selectedFiles}
@@ -84,7 +83,6 @@ const UploadFiles = () => {
           <tr>
             <th>Icon</th>
             <th>File Name</th>
-            <th>Date</th>
           </tr>
         </thead>
         <tbody>
@@ -107,7 +105,6 @@ const UploadFiles = () => {
                 <td>
                   <a href={file.url}>{file.name} : Download</a>
                 </td>
-                <td></td>
               </tr>
             ))}
         </tbody>

@@ -1,18 +1,5 @@
 import axiosService from "./axiosService";
 
-// const fileLoad = (file, onUploadProgress) => {
-//   let formData = new FormData();
-//   formData.append("file", file);
-//   console.log(formData);
-
-//   return axiosService.post("/upload", formData, {
-//     headers: {
-//       "Content-Type": "multipart/form-data",
-//     },
-//     onUploadProgress,
-//   });
-// };
-
 const fileLoad = (files) => {
   console.log(files);
   console.log(typeof files);
